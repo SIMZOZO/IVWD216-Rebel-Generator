@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REBEL Magazine Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="controls">
+            <h2>[CTRL_PANEL]</h2>
+            
+            <label for="issueInput">Issue Number</label>
+            <input type="text" id="issueInput" placeholder="e.g. 01">
+            
+            <label for="headInput">Main Headline</label>
+            <input type="text" id="headInput" placeholder="e.g. THE TIRED REALITY">
+            
+            <label for="subInput">Sub-text</label>
+            <input type="text" id="subInput" placeholder="e.g. WARPER PROTOCOL // NATHI">
+            
+            <label for="imgInput">Cover Image URL</label>
+            <input type="text" id="imgInput" placeholder="Paste image link here...">
+        </div>
+
+        <div class="canvas-area">
+            <div class="magazine-cover" id="magCover">
+                <div class="mag-bg" id="magBg"></div>
+                
+                <div class="mag-header">
+                    <h1 class="brand">REBEL</h1>
+                    <span class="issue" id="magIssue">VOL. 01</span>
+                </div>
+                
+                <div class="mag-content">
+                    <h2 id="magHead">THE TIRED REALITY</h2>
+                    <p id="magSub">WARPER PROTOCOL // NATHI</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
